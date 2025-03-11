@@ -19,7 +19,7 @@ include "includes/navbar.php";
 					<div class="banner_content text-center">
 						<h2>Orion Project Details</h2>
 						<div class="page_link">
-							<a href="index.phpl">Home</a>
+							<a href="index.php">Home</a>
 							<a href="orion.php">Orion</a>
 						
 						</div>

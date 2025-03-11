@@ -254,7 +254,7 @@ include "includes/slider.php";
 <!--================End Testimonials Area =================-->
 
 <!--================Projects Area =================-->
-<section class="projects_area p_120">
+<!-- <section class="projects_area p_120">
   <div class="container">
     <div class="main_title">
       <h2>Our Recent Completed Projects</h2>
@@ -280,10 +280,10 @@ include "includes/slider.php";
           <img class="img-fluid" src="img/projects/proj_orion.jpg" alt="" />
         </div>
         <div class="projects_text">
-        <a href="login.php?redirect=orion.php"><h4>Orion</h4></a>
-        <!-- <a href="<?php echo isset($_SESSION['username']) ? 'orion.php' : 'login.php'; ?>">
-  <h4>Orion</h4>
-</a> -->
+          <a href="login.php?redirect=orion.php">
+            <h4>Orion</h4>
+          </a>
+
 
 
           <p>
@@ -297,7 +297,9 @@ include "includes/slider.php";
           <img class="img-fluid" src="img/projects/mlstudio.png" alt="" />
         </div>
         <div class="projects_text">
-         <a href="login.php?redirect=mlstudio.php"><h4>ML Studio</h4></a>
+          <a href="login.php?redirect=mlstudio.php">
+            <h4>ML Studio</h4>
+          </a>
           <p>
             Accelerate machine learning workflows with cutting-edge tools,
             optimized data pipelines, and scalable AI solutions.
@@ -306,7 +308,7 @@ include "includes/slider.php";
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--================End Projects Area =================-->
 
 <!--================Latest Blog Area =================-->
