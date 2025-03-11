@@ -37,3 +37,23 @@
 .nav-item .menu_btn:hover {
     background-position: right center;
     color: #fff; }
+
+.l_blog_img img {
+     width: 100%; /* Ensures images take the full width of the container */
+     height: 250px; /* Set a fixed height */
+     object-fit: cover; /* Ensures images maintain aspect ratio without distortion */
+}
+      
+.projects_item img {
+    width: 100%; /* Ensures images take the full width of the container */
+    height: 250px; /* Set a fixed height */
+    object-fit: cover; /* Ensures images maintain aspect ratio without distortion */
+}
+
+.testimonials_area {
+    background: #ffffff! important;
+}
+
+.latest_blog_area {
+    background: #f9f9ff;
+}

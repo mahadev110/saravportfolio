@@ -2795,7 +2795,10 @@ h6 {
   margin-bottom: 30px; }
   .feature_item i {
     margin-bottom: 35px;
-    display: block; }
+    display: block; 
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;}
     .feature_item i:before {
       margin-left: 0px;
       font-size: 60px;
@@ -2817,7 +2820,7 @@ h6 {
     box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
     border-color: #fff; }
     .feature_item:hover i:before {
-      background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+      background: gray;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent; }
 

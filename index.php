@@ -32,54 +32,55 @@ include "includes/slider.php";
             Deployment, Plugin Development, Build & Release, Service
             Discovery
           </p>
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="tools_expert">
-                <h3>Tools Expertness</h3>
-                <div class="skill_main">
-                  <div class="skill_item">
-                    <h4>DevOps <span class="counter">90</span>%</h4>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                    </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tools_expert">
+              <h3>Tool proficiency</h3>
+              <div class="skill_main">
+                <div class="skill_item">
+                  <h4>DevOps <span class="counter">90</span>%</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                      aria-valuemax="100"></div>
                   </div>
-                  <div class="skill_item">
-                    <h4>SaaS <span class="counter">85</span>%</h4>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                    </div>
+                </div>
+                <div class="skill_item">
+                  <h4>SaaS <span class="counter">85</span>%</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+                      aria-valuemax="100"></div>
                   </div>
-                  <div class="skill_item">
-                    <h4>
-                      Cloud Computing <span class="counter">88</span>%
-                    </h4>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                    </div>
+                </div>
+                <div class="skill_item">
+                  <h4>
+                    Cloud Computing <span class="counter">88</span>%
+                  </h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0"
+                      aria-valuemax="100"></div>
                   </div>
-                  <div class="skill_item">
-                    <h4>
-                      Amazon Web Services (AWS)
-                      <span class="counter">92</span>%
-                    </h4>
-                    <div class="progress">
-                      <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
-                        aria-valuemax="100"></div>
-                    </div>
+                </div>
+                <div class="skill_item">
+                  <h4>
+                    Amazon Web Services (AWS)
+                    <span class="counter">92</span>%
+                  </h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
+                      aria-valuemax="100"></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
 
       <div class="col-lg-6">
         <div class="tools_expert">
-          <!-- <h3>Tools Expertness</h3> -->
+          <h3>Technical proficiency</h3>
 
           <div class="skill_main">
             <div class="skill_item">
@@ -224,178 +225,142 @@ include "includes/slider.php";
       <h2>Academic Background</h2>
       <p>Lifelong Learning for Excellence</p>
     </div>
-    <div class="testi_inner">
-      <div class="testi_slider owl-carousel">
-        <div class="item">
-          <div class="testi_item">
-            <p>Organizational Leadership</p>
-            <h4>Stanford University Graduate School of Business</h4>
-            <span>Feb 2023 - Mar 2023</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testi_item">
-            <p>BE, Electrical & Electronics</p>
-            <h4>Anna University Chennai</h4>
-            <span>Activities: Drama Artist, Mono Acting</span>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testi_item">
-            <p>Higher Secondary, Computer Software Engineering</p>
-            <h4>Arasunagar Matriculation (Ramakrishna Mission)</h4>
-            <span>Activities: Covered in 12 years of schooling and more</span>
-          </div>
+    <div class="feature_inner row">
+      <div class="col-lg-4 col-md-6">
+        <div class="feature_item">    
+          <div class="projects_item">        
+          <img class="img-fluid" src="img/education/1.jpg" alt="Stanford University" />     
+          </div>     
+          <h4 class="mt-4">Organizational Leadership</h4>
+          <h5>Stanford University Graduate School of Business.</h5>
+          <p>Feb 2023 - Mar 2023</p>
         </div>
       </div>
-    </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="feature_item"> 
+        <div class="projects_item">            
+        <img class="img-fluid" src="img/education/2.jpg" alt="Anna University" />  
+        </div>        
+        <h4 class="mt-4">BE, Electrical & Electronics</h4>
+          <h5>Anna University, Chennai.</h5>
+          <p>July 2002 - May 2006</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="feature_item">  
+        <div class="projects_item">          
+        <img class="img-fluid" src="img/education/3.jpg" alt="Arasunagar Matriculation" />  
+        </div>        
+        <h4 class="mt-4">Higher Secondary</h4>
+          <h5>Arasunagar Matriculation (Ramakrishna Mission).</h5>
+          <p>12 years of schooling</p>
+        </div>
+      </div>
+
+     
+
+     
+    </div> 
   </div>
 </section>
 <!--================End Testimonials Area =================-->
 
-<!--================Projects Area =================-->
-<!-- <section class="projects_area p_120">
-  <div class="container">
-    <div class="main_title">
-      <h2>Our Recent Completed Projects</h2>
-      <p>
-        Delivering excellence with every project, we take pride in creating
-        innovative, high-quality solutions tailored to meet client needs.
-        Explore our latest successful completions!
-      </p>
-    </div>
-    <div class="projects_fillter">
-      <ul class="filter list">
-        <li class="active" data-filter="*">
-          <a href="#">All Categories</a>
-        </li>
 
-        <li data-filter=".work"><a href="#">Creative Work </a></li>
-        <li data-filter=".web"><a href="#">Web Design</a></li>
-      </ul>
-    </div>
-    <div class="projects_inner row">
-      <div class="col-lg-6 col-sm-6 brand web">
-        <div class="projects_item">
-          <img class="img-fluid" src="img/projects/proj_orion.jpg" alt="" />
-        </div>
-        <div class="projects_text">
-          <a href="login.php?redirect=orion.php">
-            <h4>Orion</h4>
-          </a>
-
-
-
-          <p>
-            Enhance IT operations with intelligent automation, proactive
-            monitoring, and seamless infrastructure management.
-          </p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-sm-6 brand work">
-        <div class="projects_item">
-          <img class="img-fluid" src="img/projects/mlstudio.png" alt="" />
-        </div>
-        <div class="projects_text">
-          <a href="login.php?redirect=mlstudio.php">
-            <h4>ML Studio</h4>
-          </a>
-          <p>
-            Accelerate machine learning workflows with cutting-edge tools,
-            optimized data pipelines, and scalable AI solutions.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-<!--================End Projects Area =================-->
 
 <!--================Latest Blog Area =================-->
-<!-- <section class="latest_blog_area p_120">
-      <div class="container">
-        <div class="main_title">
-          <h2>Latest Posts from Blog</h2>
-          <p>
-            If you are looking at blank cassettes on the web, you may be very
-            confused at the difference in price. You may see some for as low as
-            $.17 each.
-          </p>
-        </div>
-        <div class="row latest_blog_inner">
-          <div class="col-lg-4">
-            <div class="l_blog_item">
-              <div class="l_blog_img">
-                <img
-                  class="img-fluid"
-                  src="img/blog/home-blog/home-blog-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#">25 October, 2017 | By Mark Wiens</a>
-                </div>
-                <a href="#"
-                  ><h4>Addiction When Gambling Becomes A Problem</h4></a
-                >
-                <p>
-                  Computers have become ubiquitous in almost every facet of our
-                  lives. At work, desk jockeys spend hours in front of their
-                  desktops, while delivery people scan bar codes with handhelds
-                  and workers in the field stay
-                </p>
-              </div>
-            </div>
+<section class="latest_blog_area p_120" id="portfolioid">
+  <div class="container">
+    <div class="main_title">
+      <h2>Portfolio</h2>
+      <p>
+        Showcasing innovative projects, creative solutions, and a passion for excellence.
+      </p>
+    </div>
+    <div class="row latest_blog_inner">
+      <div class="col-lg-3">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/portfolio/1.jpg" alt="Managing Engineers" />
           </div>
-          <div class="col-lg-4">
-            <div class="l_blog_item">
-              <div class="l_blog_img">
-                <img
-                  class="img-fluid"
-                  src="img/blog/home-blog/home-blog-2.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#">25 October, 2017 | By Mark Wiens</a>
-                </div>
-                <a href="#"><h4>Make Myspace Your Best Designed Space</h4></a>
-                <p>
-                  Computers have become ubiquitous in almost every facet of our
-                  lives. At work, desk jockeys spend hours in front of their
-                  desktops, while delivery people scan bar codes with handhelds
-                  and workers in the field stay
-                </p>
-              </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">Managing Engineers</a>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="l_blog_item">
-              <div class="l_blog_img">
-                <img
-                  class="img-fluid"
-                  src="img/blog/home-blog/home-blog-3.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="l_blog_text">
-                <div class="date">
-                  <a href="#">25 October, 2017 | By Mark Wiens</a>
-                </div>
-                <a href="#"><h4>Video Games Playing With Imagination</h4></a>
-                <p>
-                  Computers have become ubiquitous in almost every facet of our
-                  lives. At work, desk jockeys spend hours in front of their
-                  desktops, while delivery people scan bar codes with handhelds
-                  and workers in the field stay
-                </p>
-              </div>
-            </div>
+            <a href="#">
+              <h4>Managing more than 55 Engineers</h4>
+            </a>
+            <p>
+              Successfully leading a team of 55+ engineers, ensuring project efficiency, timely delivery, and
+              innovation.
+            </p>
           </div>
         </div>
       </div>
-    </section> -->
+
+      <div class="col-lg-3">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/portfolio/2.jpg" alt="High Value Projects" />
+          </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">High-Value Projects</a>
+            </div>
+            <a href="#">
+              <h4>Handled projects over $30M</h4>
+            </a>
+            <p>
+              Successfully managed high-value projects exceeding $30 million, ensuring optimal resource allocation and
+              execution.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/portfolio/3.jpg" alt="Global Teams" />
+          </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">Global Leadership</a>
+            </div>
+            <a href="#">
+              <h4>5 Global Teams Reporting</h4>
+            </a>
+            <p>
+              Effectively leading and coordinating 5 global teams, driving seamless collaboration and successful project
+              execution.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/portfolio/4.jpg" alt="Cost Savings" />
+          </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">Cost Optimization</a>
+            </div>
+            <a href="#">
+              <h4>Implemented $20M+ Cost Savings</h4>
+            </a>
+            <p>
+              Spearheaded cost-saving initiatives, optimizing operations and achieving over $20 million in financial
+              efficiencies.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 <!--================End Latest Blog Area =================-->
 <?php include "includes/footer.php"; ?>

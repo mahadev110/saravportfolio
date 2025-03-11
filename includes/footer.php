@@ -1,38 +1,28 @@
-<!--================Footer Area =================-->
-<footer class="footer_area p_120">
+<footer class="footer_area p_120" id="contactid">
     <div class="container">
         <div class="row footer_inner">
             <div class="col-lg-5 col-sm-6">
                 <aside class="f_widget ab_widget">
                     <div class="f_title">
-                        <h3>Contact:</h3>
+                        <h3>About Me</h3>
                     </div>
-                    <p><strong>Office: </strong>2100 Seaport Blvd, Redwood City, CA 94063</p>
-                    <p><strong>Call me: </strong>(650) ***-*****</p>
-                    <p><strong>Mail me: </strong>info@example.com</p>
-
+                    <p>Experienced leader managing global teams and high-value projects. Passionate about innovation,
+                        efficiency, and driving impactful results.</p>
+                    <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy;
+                        <script>document.write(new Date().getFullYear());</script> Sarav Jagadeesan
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
                 </aside>
             </div>
             <div class="col-lg-5 col-sm-6">
                 <aside class="f_widget news_widget">
                     <div class="f_title">
-                        <h3>Newsletter</h3>
+                        <h3>Contact</h3>
                     </div>
-                    <p>Stay updated with our latest trends</p>
-                    <div id="mc_embed_signup">
-                        <form target="_blank"
-                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
-                            method="get" class="subscribe_form relative">
-                            <div class="input-group d-flex flex-row">
-                                <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''"
-                                    onblur="this.placeholder = 'Email Address '" required="" type="email" />
-                                <button class="btn sub-btn">
-                                    <span class="lnr lnr-arrow-right"></span>
-                                </button>
-                            </div>
-                            <div class="mt-10 info"></div>
-                        </form>
-                    </div>
+                    <p><strong>Office: </strong>2100 Seaport Blvd, Redwood City, CA 94063</p>
+                    <p><strong>Call me: </strong>(650) ***-*****</p>
+                    <p><strong>Mail me: </strong>info@example.com</p>
                 </aside>
             </div>
             <div class="col-lg-2">
@@ -41,49 +31,27 @@
                         <h3>Follow Me</h3>
                     </div>
                     <p>Let us be social</p>
-                    <ul class="list">
-                        <li>
-                            <a href="#"><i class="fab fa-facebook"></i></a>
+                    <ul class="list d-flex align-items-center">
+                        <li class="mr-3">
+                            <a href="https://www.linkedin.com/in/saravananjagadeesan/" target="_blank">
+                                <i class="fab fa-linkedin fa-xl"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/saravananjagadeesan/"><i
-                                    class="fab fa-linkedin"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fab fa-behance"></i></a>
+                            <a href="login.php" class="font-weight-bold">Login</a>
                         </li>
                     </ul>
+
                 </aside>
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-          
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-
-                    Copyright &copy;
-                    <script>
-                        document.write(new Date().getFullYear()); 
-                    </script>
-                    Sarav Jagadeesan
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    Designed &amp; Maintained
-                    <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                    <a href="https://www.dzyteservices.com/" target="_blank">DZYTE services</a>
-
-
-                </div>
-           
-        </div>
-    </div>
 </footer>
 <!--================End Footer Area =================-->
+
+
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -104,6 +72,9 @@
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 <script src="js/gmaps.min.js"></script>
 <script src="js/theme.js"></script>
+
+
+
 </body>
 
 </html>
