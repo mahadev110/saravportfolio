@@ -19,3 +19,21 @@
     width: calc(100% - 60px); /* 30px blank space on both sides */
     margin: 0 auto; /* Center the line */
 }
+
+.nav-item .menu_btn{
+    padding: 0px 42px;
+    line-height: 50px;
+    background-image: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+    background-size: 200% auto;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition: all 300ms linear 0s;
+    margin-top: 15px;
+}
+.nav-item .menu_btn:hover {
+    background-position: right center;
+    color: #fff; }

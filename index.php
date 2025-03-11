@@ -156,7 +156,7 @@ include "includes/slider.php";
 <!--================End Welcome Area =================-->
 
 <!--================Feature Area =================-->
-<section class="feature_area p_120">
+<section class="feature_area p_120" id="experienceid">
   <div class="container">
     <div class="main_title">
       <h2>Professional Experience</h2>
@@ -218,7 +218,7 @@ include "includes/slider.php";
 <!--================End Feature Area =================-->
 
 <!--================Testimonials Area =================-->
-<section class="testimonials_area p_120">
+<section class="testimonials_area p_120" id="academicid">
   <div class="container">
     <div class="main_title">
       <h2>Academic Background</h2>
