@@ -1,0 +1,14 @@
+.navbar-brand img {
+    width: 140px;
+    height: auto;
+    max-height: 80px;
+}
+
+
+.welcome_text p {
+    margin-bottom: 10px! important;
+}
+
+.f_title {
+    margin-bottom: 15px! important;
+}
