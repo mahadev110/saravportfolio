@@ -6,7 +6,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="home_left_img">
-                <img src="img/banner/profile.png" alt="" />
+                <img src="img/banner/profile.png" alt="" style="width:250px;"/>
               </div>
             </div>
             <div class="col-lg-6">

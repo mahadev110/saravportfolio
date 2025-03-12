@@ -57,3 +57,138 @@
 .latest_blog_area {
     background: #f9f9ff;
 }
+
+.home_banner_area .banner_inner .home_left_img {
+
+    padding-left: 100px;
+}
+
+.image-frame {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 8px solid #B2BEB5;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+.image-frame {
+    position: relative;
+    display: inline-block;
+}
+
+.image-frame img {
+    transition: 0.3s ease-in-out;
+}
+
+.image-frame::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 15px; /* Optional */
+}
+
+.image-frame:hover::after {
+    opacity: 0.6; /* Adjust transparency */
+}
+
+
+.wel_item {  
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.wel_item:hover {  
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+}
+
+/* ............tree  */
+ /* Timeline Container */
+
+ 
+   /* Timeline Container */
+   .timeline {
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Center Vertical Line */
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--first-color, #007bff);
+    transform: translateX(-50%);
+}
+
+/* Timeline Item */
+.timeline-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Dots on the Timeline */
+.timeline-dot {
+    position: absolute;
+    left: 50%;
+    width: 14px;
+    height: 14px;
+    background-color: var(--first-color, #007bff);
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+/* Content Box */
+.timeline-content {
+    width: 45%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+/* Align odd items to the left */
+.timeline-item:nth-child(odd) .timeline-content {
+    text-align: right;
+    margin-right: 55%;
+}
+
+/* Align even items to the right */
+.timeline-item:nth-child(even) .timeline-content {
+    text-align: left;
+    margin-left: 55%;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 10px;
+    }
+
+    .timeline-dot {
+        left: 10px;
+    }
+
+    .timeline-content {
+        width: 80%;
+        margin-left: 30px !important;
+        text-align: left;
+    }
+}

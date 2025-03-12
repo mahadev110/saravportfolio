@@ -10,7 +10,8 @@ include "includes/slider.php";
 <section class="welcome_area p_120" id="aboutsection">
   <div class="container">
     <div class="row welcome_inner">
-      <div class="col-lg-6">
+
+      <div class="col-lg-7">
         <div class="welcome_text">
           <h4>About Myself</h4>
           <p>
@@ -32,125 +33,35 @@ include "includes/slider.php";
             Deployment, Plugin Development, Build & Release, Service
             Discovery
           </p>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="tools_expert">
-              <h3>Tool proficiency</h3>
-              <div class="skill_main">
-                <div class="skill_item">
-                  <h4>DevOps <span class="counter">90</span>%</h4>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-                <div class="skill_item">
-                  <h4>SaaS <span class="counter">85</span>%</h4>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-                <div class="skill_item">
-                  <h4>
-                    Cloud Computing <span class="counter">88</span>%
-                  </h4>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-                <div class="skill_item">
-                  <h4>
-                    Amazon Web Services (AWS)
-                    <span class="counter">92</span>%
-                  </h4>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="wel_item text-center">
+                <h4>16 +</h4>
+                <p>Years experience</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wel_item text-center">
+                <h4>12 +</h4>
+                <p>Completed projects</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="wel_item text-center">
+                <h4>05</h4>
+                <p>Companies trained</p>
               </div>
             </div>
           </div>
         </div>
 
       </div>
-
-      <div class="col-lg-6">
-        <div class="tools_expert">
-          <h3>Technical proficiency</h3>
-
-          <div class="skill_main">
-            <div class="skill_item">
-              <h4>Chef <span class="counter">75</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Linux <span class="counter">90</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Docker <span class="counter">87</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Jenkins <span class="counter">85</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Git <span class="counter">95</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Python <span class="counter">88</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Kubernetes <span class="counter">89</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="89" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>
-                Google Cloud Platform (GCP) <span class="counter">86</span>%
-              </h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-            <div class="skill_item">
-              <h4>Microsoft Azure <span class="counter">83</span>%</h4>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="83" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="col-lg-5">
+        <div class="image-frame mt-5">
+          <img class="img-fluid" src="img/about.webp" alt="about" />
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -160,60 +71,83 @@ include "includes/slider.php";
 <section class="feature_area p_120" id="experienceid">
   <div class="container">
     <div class="main_title">
-      <h2>Professional Experience</h2>
-      <p>
-        Bridging Innovation and Expertise – A Journey of Excellence in IT
-        and Cloud Solutions.
-      </p>
+      <h2>Qualification</h2>
+      <p> My journey of learning and experience </p>
     </div>
-    <div class="feature_inner row">
-      <div class="col-lg-4 col-md-6">
-        <div class="feature_item">
-          <i class="fa-solid fa-diagram-project"></i>
-          <h4>Director of Platform Engineering & Infrastructure</h4>
-          <h5>Informatica <span>(9 yrs 6 mos)</span></h5>
-          <p>Redwood City, California, United States</p>
+  
+
+    <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+          aria-controls="pills-home" aria-selected="true">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+          aria-controls="pills-profile" aria-selected="false">Academic</a>
+      </li>
+     
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Director of Platform Engineering & Infrastructure</h5>
+          <p>Informatica - Redwood City, California, United States</p>
+          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+            9 yrs 6 mos</span>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="feature_item">
-          <i class="fa-solid fa-gears"></i>
-          <h4>Sr. Software Engineer - DevOps</h4>
-          <h5>Elementum <span>(Dec 2014 - Nov 2015 · 1 yr)</span></h5>
-          <p>San Francisco Bay Area</p>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Sr. Software Engineer - DevOps</h5>
+          <p>Elementum - San Francisco Bay Area</p>
+          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+            Dec 2014 - Nov 2015 · 1 yr</span>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="feature_item">
-          <i class="fa-solid fa-cloud-arrow-up"></i>
-          <h4>Senior DevOps Engineer / DevOps Engineer</h4>
-          <h5>Qualys <span>(Jan 2012 - Dec 2014 · 3 yrs)</span></h5>
-          <p>San Francisco Bay Area</p>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Senior DevOps Engineer / DevOps Engineer</h5>
+          <p>Qualys - San Francisco Bay Area</p>
+          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+            Jan 2012 - Dec 2014 · 3 yrs</span>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="feature_item">
-          <i class="fa-solid fa-laptop-code"></i>
-          <h4>Senior Software Developer</h4>
-          <h5>Qualcomm <span>(Feb 2011 - Jan 2012 · 1 yr)</span></h5>
-          <p>San Francisco Bay Area</p>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Senior Software Developer</h5>
+          <p>Qualcomm - San Francisco Bay Area</p>
+          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+            Feb 2011 - Jan 2012 · 1 yr</span>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6">
-        <div class="feature_item">
-          <i class="fa-solid fa-laptop-code"></i>
-          <h4>Software Engineer</h4>
-          <h5>
-            HP Autonomy <span>(Oct 2008 - Feb 2011 · 2 yrs 5 mos)</span>
-          </h5>
-          <p>Bengaluru Area, India</p>
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h5>Software Engineer</h5>
+          <p>HP Autonomy - Bengaluru Area, India</p>
+          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+            Oct 2008 - Feb 2011 · 2 yrs 5 mos</span>
         </div>
       </div>
     </div>
+    ...</div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
+     
+    </div>
+
+
+
+
   </div>
 </section>
 <!--================End Feature Area =================-->
@@ -227,10 +161,10 @@ include "includes/slider.php";
     </div>
     <div class="feature_inner row">
       <div class="col-lg-4 col-md-6">
-        <div class="feature_item">    
-          <div class="projects_item">        
-          <img class="img-fluid" src="img/education/1.jpg" alt="Stanford University" />     
-          </div>     
+        <div class="feature_item">
+          <div class="projects_item">
+            <img class="img-fluid" src="img/education/1.jpg" alt="Stanford University" />
+          </div>
           <h4 class="mt-4">Organizational Leadership</h4>
           <h5>Stanford University Graduate School of Business.</h5>
           <p>Feb 2023 - Mar 2023</p>
@@ -238,31 +172,31 @@ include "includes/slider.php";
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="feature_item"> 
-        <div class="projects_item">            
-        <img class="img-fluid" src="img/education/2.jpg" alt="Anna University" />  
-        </div>        
-        <h4 class="mt-4">BE, Electrical & Electronics</h4>
+        <div class="feature_item">
+          <div class="projects_item">
+            <img class="img-fluid" src="img/education/2.jpg" alt="Anna University" />
+          </div>
+          <h4 class="mt-4">BE, Electrical & Electronics</h4>
           <h5>Anna University, Chennai.</h5>
           <p>July 2002 - May 2006</p>
         </div>
       </div>
 
       <div class="col-lg-4 col-md-6">
-        <div class="feature_item">  
-        <div class="projects_item">          
-        <img class="img-fluid" src="img/education/3.jpg" alt="Arasunagar Matriculation" />  
-        </div>        
-        <h4 class="mt-4">Higher Secondary</h4>
+        <div class="feature_item">
+          <div class="projects_item">
+            <img class="img-fluid" src="img/education/3.jpg" alt="Arasunagar Matriculation" />
+          </div>
+          <h4 class="mt-4">Higher Secondary</h4>
           <h5>Arasunagar Matriculation (Ramakrishna Mission).</h5>
           <p>12 years of schooling</p>
         </div>
       </div>
 
-     
 
-     
-    </div> 
+
+
+    </div>
   </div>
 </section>
 <!--================End Testimonials Area =================-->
