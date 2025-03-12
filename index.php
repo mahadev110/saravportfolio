@@ -58,7 +58,7 @@ include "includes/slider.php";
       </div>
       <div class="col-lg-5">
         <div class="image-frame mt-5">
-          <img class="img-fluid" src="img/about.webp" alt="about" />
+          <img class="img-fluid" src="img/banner/profile.png" alt="about" />
         </div>
       </div>
 
@@ -68,13 +68,13 @@ include "includes/slider.php";
 <!--================End Welcome Area =================-->
 
 <!--================Feature Area =================-->
-<section class="feature_area p_120" id="experienceid">
+<section class="feature_area p_120" id="qualificationid">
   <div class="container">
     <div class="main_title">
       <h2>Qualification</h2>
       <p> My journey of learning and experience </p>
     </div>
-  
+
 
     <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
@@ -85,64 +85,103 @@ include "includes/slider.php";
         <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
           aria-controls="pills-profile" aria-selected="false">Academic</a>
       </li>
-     
+
     </ul>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-      <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h5>Director of Platform Engineering & Infrastructure</h5>
-          <p>Informatica - Redwood City, California, United States</p>
-          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-            9 yrs 6 mos</span>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Expert in Platform Engineering & Infrastructure</h5>
+              <p>Redwood City, California, United States</p>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+                9 yrs 6 mos</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Sr. Software Engineer - DevOps</h5>
+              <p>Elementum - San Francisco Bay Area</p>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+                Dec 2014 - Nov 2015 · 1 yr</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Senior DevOps Engineer / DevOps Engineer</h5>
+              <p>Qualys - San Francisco Bay Area</p>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+                Jan 2012 - Dec 2014 · 3 yrs</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Senior Software Developer</h5>
+              <p>Qualcomm - San Francisco Bay Area</p>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+                Feb 2011 - Jan 2012 · 1 yr</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h5>Software Engineer</h5>
+              <p>HP Autonomy - Bengaluru Area, India</p>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+                Oct 2008 - Feb 2011 · 2 yrs 5 mos</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="projects_item">
+                <img class="img-fluid" src="img/education/1.jpg" alt="Stanford University" />
+              </div>
+              <h5>Organizational Leadership</h5>
+              <p>Stanford University Graduate School of Business</p>
+              <span><i class="fa-solid fa-calendar-days"></i> Feb 2023 - Mar 2023</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="projects_item">
+                <img class="img-fluid" src="img/education/2.jpg" alt="Anna University" />
+              </div>
+              <h5>BE, Electrical & Electronics</h5>
+              <p>Anna University, Chennai</p>
+              <span><i class="fa-solid fa-calendar-days"></i> July 2002 - May 2006</span>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="projects_item">
+                <img class="img-fluid" src="img/education/3.jpg" alt="Arasunagar Matriculation" />
+              </div>
+              <h5>Higher Secondary</h5>
+              <p>Arasunagar Matriculation (Ramakrishna Mission)</p>
+              <span><i class="fa-solid fa-calendar-days"></i> 12 years of schooling</span>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h5>Sr. Software Engineer - DevOps</h5>
-          <p>Elementum - San Francisco Bay Area</p>
-          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-            Dec 2014 - Nov 2015 · 1 yr</span>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h5>Senior DevOps Engineer / DevOps Engineer</h5>
-          <p>Qualys - San Francisco Bay Area</p>
-          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-            Jan 2012 - Dec 2014 · 3 yrs</span>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h5>Senior Software Developer</h5>
-          <p>Qualcomm - San Francisco Bay Area</p>
-          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-            Feb 2011 - Jan 2012 · 1 yr</span>
-        </div>
-      </div>
-
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h5>Software Engineer</h5>
-          <p>HP Autonomy - Bengaluru Area, India</p>
-          <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-            Oct 2008 - Feb 2011 · 2 yrs 5 mos</span>
-        </div>
-      </div>
-    </div>
-    ...</div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-     
     </div>
 
 
@@ -153,7 +192,7 @@ include "includes/slider.php";
 <!--================End Feature Area =================-->
 
 <!--================Testimonials Area =================-->
-<section class="testimonials_area p_120" id="academicid">
+<!-- <section class="testimonials_area p_120" id="academicid">
   <div class="container">
     <div class="main_title">
       <h2>Academic Background</h2>
@@ -198,7 +237,7 @@ include "includes/slider.php";
 
     </div>
   </div>
-</section>
+</section> -->
 <!--================End Testimonials Area =================-->
 
 

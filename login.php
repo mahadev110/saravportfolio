@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="main_menu" id="mainNav">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container box_1620">
-                    <a class="navbar-brand logo_h" href="index"><img src="img/logo1.png" alt="" /></a>
+                <a href="index.php" class="navbar-brand logo_h">Sarav Jagadeesan</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -57,8 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="index">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.php#aboutsection">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="index.php#experienceid">Experiences</a>
-                            <li class="nav-item"><a class="nav-link" href="index.php#academicid">Academic</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php#qualificationid">Experiences</a>
+                            <li class="nav-item"><a class="nav-link" href="index.php#qualificationid">Academic</a></li>
                             <li class="nav-item"><a class="nav-link" href="index.php#portfolioid">Portfolio</a>                         
                             <li class="nav-item"><a class="nav-link" href="index.php#contactid">Contact</a></li>
                             <li class="nav-item"><a class="menu_btn" href="login.php">Login</a></li>

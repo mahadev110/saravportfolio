@@ -18,8 +18,8 @@
                         <ul class="nav navbar-nav menu_nav ml-auto">
                             <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#aboutsection">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#experienceid">Experiences</a>
-                            <li class="nav-item"><a class="nav-link" href="#academicid">Academic</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#qualificationid">Experiences</a>
+                            <li class="nav-item"><a class="nav-link" href="#qualificationid">Academic</a></li>
                             <li class="nav-item"><a class="nav-link" href="#portfolioid">Portfolio</a>                         
                             <li class="nav-item"><a class="nav-link" href="#contactid">Contact</a></li>
                             <li class="nav-item"><a class="menu_btn" href="login">Login</a></li>

@@ -26,5 +26,5 @@
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/custom_style.css" />
   </head>
