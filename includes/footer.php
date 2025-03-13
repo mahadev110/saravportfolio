@@ -73,8 +73,30 @@
 <script src="js/gmaps.min.js"></script>
 <script src="js/theme.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("experience-link").addEventListener("click", function () {
+        // Activate Experience tab
+        document.getElementById("pills-home-tab").classList.add("active");
+        document.getElementById("tab-experience").classList.add("show", "active");
 
+        // Deactivate Academic tab
+        document.getElementById("pills-profile-tab").classList.remove("active");
+        document.getElementById("tab-academic").classList.remove("show", "active");
+    });
 
+    document.getElementById("academic-link").addEventListener("click", function () {
+        // Activate Academic tab
+        document.getElementById("pills-profile-tab").classList.add("active");
+        document.getElementById("tab-academic").classList.add("show", "active");
+
+        // Deactivate Experience tab
+        document.getElementById("pills-home-tab").classList.remove("active");
+        document.getElementById("tab-experience").classList.remove("show", "active");
+    });
+});
+
+</script>
 </body>
 
 </html>

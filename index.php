@@ -78,17 +78,16 @@ include "includes/sliderhero.php";
 
     <ul class="nav nav-tabs justify-content-center mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#tab-experience" role="tab"
           aria-controls="pills-home" aria-selected="true">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#tab-academic" role="tab"
           aria-controls="pills-profile" aria-selected="false">Academic</a>
       </li>
-
     </ul>
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="tab-pane fade show active" id="tab-experience" role="tabpanel" aria-labelledby="pills-home-tab">
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
@@ -142,7 +141,7 @@ include "includes/sliderhero.php";
         </div>
 
       </div>
-      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="tab-pane fade" id="tab-academic" role="tabpanel" aria-labelledby="pills-profile-tab">
         <div class="timeline">
           <div class="timeline-item">
             <div class="timeline-dot"></div>
