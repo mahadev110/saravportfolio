@@ -318,12 +318,12 @@ button:focus {
         text-transform: uppercase;
         margin-bottom: 20px; }
       .home_banner_area .banner_inner .banner_content p {
-        color: #777777;
+        color: #ffffff;
         font-family: "Roboto", sans-serif;
         max-width: 680px;
         font-size: 14px;
         line-height: 26px;
-        margin: 0px auto 45px; }
+        margin: 0px;  }
       .home_banner_area .banner_inner .banner_content .banner_map_img {
         text-align: right; }
 

@@ -4,7 +4,7 @@ session_start(); // Start session at the top of the file
 <?php
 include "includes/header.php";
 include "includes/navbar.php";
-include "includes/slider.php";
+include "includes/sliderhero.php";
 ?>
 <!--================Welcome Area =================-->
 <section class="welcome_area p_120" id="aboutsection">
@@ -58,7 +58,7 @@ include "includes/slider.php";
       </div>
       <div class="col-lg-5">
         <div class="image-frame mt-5">
-          <img class="img-fluid" src="img/banner/profile.png" alt="about" />
+          <img class="img-fluid" src="img/banner/profile2.png" alt="about" />
         </div>
       </div>
 
@@ -76,7 +76,7 @@ include "includes/slider.php";
     </div>
 
 
-    <ul class="nav justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
+    <ul class="nav nav-tabs justify-content-center mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
         <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
           aria-controls="pills-home" aria-selected="true">Experience</a>
@@ -147,36 +147,37 @@ include "includes/slider.php";
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <div class="projects_item">
+              <!-- <div class="projects_item">
                 <img class="img-fluid" src="img/education/1.jpg" alt="Stanford University" />
-              </div>
+              </div> -->
               <h5>Organizational Leadership</h5>
               <p>Stanford University Graduate School of Business</p>
-              <span><i class="fa-solid fa-calendar-days"></i> Feb 2023 - Mar 2023</span>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
+               Feb 2023 - Mar 2023</span>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <div class="projects_item">
+              <!-- <div class="projects_item">
                 <img class="img-fluid" src="img/education/2.jpg" alt="Anna University" />
-              </div>
+              </div> -->
               <h5>BE, Electrical & Electronics</h5>
               <p>Anna University, Chennai</p>
-              <span><i class="fa-solid fa-calendar-days"></i> July 2002 - May 2006</span>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i> July 2002 - May 2006</span>
             </div>
           </div>
 
           <div class="timeline-item">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
-              <div class="projects_item">
+              <!-- <div class="projects_item">
                 <img class="img-fluid" src="img/education/3.jpg" alt="Arasunagar Matriculation" />
-              </div>
+              </div> -->
               <h5>Higher Secondary</h5>
               <p>Arasunagar Matriculation (Ramakrishna Mission)</p>
-              <span><i class="fa-solid fa-calendar-days"></i> 12 years of schooling</span>
+              <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i> 12 years of schooling</span>
             </div>
           </div>
         </div>
@@ -243,7 +244,7 @@ include "includes/slider.php";
 
 
 <!--================Latest Blog Area =================-->
-<section class="latest_blog_area p_120" id="portfolioid">
+<!-- <section class="latest_blog_area p_120" id="portfolioid">
   <div class="container">
     <div class="main_title">
       <h2>Portfolio</h2>
@@ -334,6 +335,82 @@ include "includes/slider.php";
     </div>
 
   </div>
-</section>
+</section> -->
 <!--================End Latest Blog Area =================-->
+
+<!-- <section class="latest_blog_area p_120" id="portfolioid"> -->
+
+<div class="hero-section mb-5" id="portfolioid">
+    <!-- Left Side -->
+    <div class="left-side">
+        <div class="overlay"></div>
+        <div class="left-content">
+            <h2>Technical Skills & Expertise</h2>
+            <p>Skilled in modern cloud technologies, DevOps practices, and automation, with expertise in cloud
+                computing, CI/CD pipelines, and software development. Proficient in tools like AWS, Docker, and Python
+                to drive efficiency and scalability.</p>
+
+            <div class="mt-4">
+                <div class="stats-container">
+                    <div class="stats-card blue-card">DevOps </div>
+                    <div class="stats-card yellow-card">SaaS </div>
+                    <div class="stats-card blue-card">Cloud Computing </div>
+                    <div class="stats-card blue-card">Amazon Web Services (AWS) </div>
+                    <div class="stats-card yellow-card">Docker </div>
+                    <div class="stats-card blue-card">Python </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Yellow Curve -->
+    <div class="yellow-curve"></div>
+
+    <!-- Right Side -->
+    <div class="right-side">
+        <h2>Portfolio</h2>
+        <p>Showcasing innovative projects, creative solutions, and a passion for excellence.</p>
+
+        <div class="stats">
+            <div class="containerright">
+                <div class="info-box">
+                    <i class="fa-solid fa-users-gear"></i> <!-- Managing Engineers -->
+                    <div>
+                        <strong>55+</strong>
+                        <p>Managing more than Engineers</p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="info-box">
+                    <i class="fa-solid fa-briefcase"></i> <!-- Handled Projects -->
+                    <div>
+                        <strong>$30M</strong>
+                        <p>Over Handled Projects</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="containerright">
+                <div class="info-box">
+                    <i class="fa-solid fa-globe"></i> <!-- Global Teams Reporting -->
+                    <div>
+                        <strong>5+</strong>
+                        <p>Global Teams Reporting</p>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="info-box">
+                    <i class="fa-solid fa-piggy-bank"></i> <!-- Cost Savings -->
+                    <div>
+                        <strong>$20M</strong>
+                        <p>Implemented Cost Savings</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- </section> -->
+
 <?php include "includes/footer.php"; ?>

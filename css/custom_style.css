@@ -58,30 +58,26 @@
     background: #ffffff;
 }
 
-.home_banner_area .banner_inner .home_left_img {
-    padding-top: 135px!important;
-    padding-left: 200px;
-}
 
 .image-frame {
     display: inline-block;
-    width: 400px;
-    height: 400px;
+    position: relative;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     overflow: hidden;
-    border: 8px solid #B2BEB5;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   
+    border: 1px solid #B2BEB5;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
    
 }
 
-.image-frame {
-    position: relative;
-    display: inline-block;
-}
+
 
 .image-frame img {
     transition: 0.3s ease-in-out;
 }
+
 
 .image-frame::after {
     content: "";
@@ -105,15 +101,20 @@
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.wel_item p {  
+    color: #000000! important;
+}
 .wel_item:hover {  
-    background: linear-gradient(to right, #8490ff 0%, #62bdfc 70%);
+    background: #62bdfc;
+    opacity: 0.5;
+    /* linear-gradient(to right, #8490ff 0%, #62bdfc 70%); */
+
 }
 
 /* ............tree  */
  /* Timeline Container */
 
- 
-   /* Timeline Container */
+
    .timeline {
     position: relative;
     max-width: 800px;
@@ -176,8 +177,57 @@
 }
 
 
+
+
+/* Responsive for mobile */
+@media screen and (max-width: 767px) {
+    .timeline {
+        position: relative;
+        padding: 0; /* Remove extra left padding */
+    }
+
+    .timeline::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; /* Stack items */
+        text-align: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .timeline-dot {
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 2;
+    }
+
+    .timeline-content {
+        width: 45%;
+        position: relative;
+    }
+
+    /* Keep the left-right alternation */
+    .timeline-item:nth-child(odd) .timeline-content {
+        text-align: right;
+        align-self: flex-start;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+        text-align: left;
+        align-self: flex-end;
+    }
+}
+
+
+  
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .timeline::before {
         left: 10px;
     }
@@ -191,8 +241,9 @@
         margin-left: 30px !important;
         text-align: left;
     }
-}
+} */
 
+/* ......... */
 
 .home-title {
     font-size: 2rem;
@@ -208,10 +259,7 @@
     margin-bottom: 2rem;
 }
 
-.home_banner_area .banner_inner .banner_content {
- 
-    margin-top: 90px;
-}
+
 .socialicon_top {
     position: absolute; /* Positions within the parent section */
     top: 50%;
@@ -267,6 +315,331 @@
     }
 }
 
-.home_banner_area .banner_inner .banner_left_img {
+/* .home_banner_area .banner_inner .banner_left_img {
     padding-top: 105px;
+}
+
+@media (max-width:575px){
+    .home_banner_area .banner_inner .banner_left_img {
+		display: none;
+	}
+} */
+
+/* 
+.home_banner_area .banner_inner .banner_content {
+ 
+    margin-top: 40px;
+} */
+
+/* .home_banner_area .banner_inner .home_left_img {
+    padding-top: 135px!important;
+    padding-left: 200px;
+} */
+
+
+/* ................ hero banner  */
+
+.home_banner_area {
+    position: relative;
+    background: url('../img/banner/bannerleft3.png') no-repeat center center/cover;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ensures text remains visible */
+}
+
+.home_banner_area::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(65, 65, 65, 0.6);  */
+    z-index: 1;
+}
+
+.banner_inner {
+    position: relative;
+    z-index: 2; /* Keeps content above overlay */
+    text-align: center;
+}
+
+.banner_content h1,
+.banner_content h3,
+.banner_content p {
+    color: white; /* Ensures all text remains visible */
+}
+
+
+
+
+/* Default navbar styles (white text for hero section) */
+.header_area .navbar .navbar-brand,
+.header_area .navbar .nav .nav-item .nav-link {
+    color: #ffffff !important;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Sticky navbar (black text after scroll) */
+.header_area.navbar_fixed .navbar-brand,
+.header_area.navbar_fixed .nav .nav-item .nav-link {
+    color: #000000 !important;
+}
+
+/* Ensure background color changes on scroll */
+.header_area.navbar_fixed {
+    background-color: #ffffff !important;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.header_area .navbar .nav .nav-item .nav-link:hover {
+    color: #62bdfc !important;
+}
+
+/* ..............portfolio css  */
+
+.hero-section {
+    display: flex;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Left Side */
+.left-side {
+    flex: 1;
+    position: relative;
+    background: url('../img/portfolio/1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.left-content {
+    position: relative;
+    z-index: 1;
+}
+
+.yellow-curve {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 100%;
+    background: #ffcc00;
+    /* clip-path: polygon(100% 0, 80% 0, 0 100%, 20% 100%); */
+}
+
+/* Right Side */
+.right-side {
+    flex: 1;
+    background: #007bff;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Stats Section */
+.stats-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.stats-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.blue-card {
+    background: linear-gradient(to right, #8490ff 0%, #62bdfc 48%, #8490ff 100%);
+    color: white;
+}
+
+.yellow-card {
+    background: #007bff;
+    color: black;
+}
+
+.containerright {
+    display: flex;
+    align-items: center;
+    /* background-color: #0057b8; */
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    /* width: 500px; */
+}
+
+
+
+/* Info Boxes */
+.info-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+    width: 230px;
+}
+
+.info-box i {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.info-box p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.info-box strong {
+    font-size: 30px;
+    display: block;
+}
+
+.info-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* Space between elements */
+}
+
+.divider {
+    width: 2px;
+    height: 50px;
+    background-color: #ffc107;
+    /* Yellow color */
+    display: block;
+    /* Ensure it is visible */
+}
+
+.tab-container {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    /* clip-path: polygon(0 0, 85% 0, 100% 100%, 15% 100%); */
+}
+
+.tab:nth-child(1) {
+    background-color: #0056b3;
+}
+
+.tab:nth-child(2) {
+    background-color: #ffc107;
+}
+
+.tab-content {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tab-content span {
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+    }
+
+    /* Left Side */
+    .left-side {
+        flex: none;
+        /* height: 80vh; */
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .yellow-curve {
+        display: none; /* Hide if it's causing issues */
+    }
+
+    /* Right Side */
+    .right-side {
+        flex: none;
+        height: auto;
+        min-height: 80vh; /* Increase height */
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Stats Section */
+    .stats-container {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
+    /* Info Boxes */
+    .info-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info-box {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .info-box i {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .tab-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .yellow-curve {
+        display: none; /* Hide only on tablets */
+    }
 }
