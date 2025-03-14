@@ -25,7 +25,7 @@
 
                             <li class="nav-item"><a class="nav-link" href="#portfolioid">Portfolio</a>
                             <!-- <li class="nav-item"><a class="nav-link" href="#contactid">Contact</a></li> -->
-                            <li class="nav-item"><a class="menu_btn" href="login">Login</a></li>
+                            <li class="nav-item"><a class="menu_btn" href="manage">Login</a></li>
                         </ul>
                     </div>
                 </div>
