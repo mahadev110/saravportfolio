@@ -11,20 +11,20 @@ include "includes/sliderhero.php";
   <div class="container">
     <div class="row welcome_inner">
 
-      <div class="col-lg-7">
+      <div class="col-lg-8 ">
         <div class="welcome_text">
           <h4>About Myself</h4>
           <p>
             I would enjoy fast paced environment contributing for multiple
             projects.
           </p>
-          <p class="mb-4">
+          <p class="mb-4 text-justify">
             <strong>Technical:</strong> AWS, Azure, GCP , Consul, Docker,
             Chef, packer, Terraform, NoSQL, Microservices, Sumologic,
             Jenkins, Bamboo, Stash, github, artifactory, Python, redis,
             golang, grafana, vault, Kubernetes, Qualys
           </p>
-          <p class="mb-0">
+          <p class="mb-0 text-justify">
             <strong>Specialties:</strong>Multi-cloud, Kubernetes,
             Monitoring, incident management, devtools, Automation,
             Continuous delivery, Version control, Tool migrations, Extending
@@ -33,20 +33,20 @@ include "includes/sliderhero.php";
             Deployment, Plugin Development, Build & Release, Service
             Discovery
           </p>
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row ">
+            <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>16 +</h4>
-                <p>Years experience</p>
+                <p>Years <br>experience</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>12 +</h4>
                 <p>Completed projects</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>05</h4>
                 <p>Companies trained</p>
@@ -56,7 +56,8 @@ include "includes/sliderhero.php";
         </div>
 
       </div>
-      <div class="col-lg-5">
+     
+      <div class="col-lg-3">
         <div class="image-frame mt-5">
           <img class="img-fluid" src="img/banner/profile2.png" alt="about" />
         </div>
@@ -152,7 +153,7 @@ include "includes/sliderhero.php";
               <h5>Organizational Leadership</h5>
               <p>Stanford University Graduate School of Business</p>
               <span style="font-size: 12px;"> <i class="fa-solid fa-calendar-days"></i>
-               Feb 2023 - Mar 2023</span>
+                Feb 2023 - Mar 2023</span>
             </div>
           </div>
 
@@ -340,75 +341,75 @@ include "includes/sliderhero.php";
 <!-- <section class="latest_blog_area p_120" id="portfolioid"> -->
 
 <div class="hero-section mb-5" id="portfolioid">
-    <!-- Left Side -->
-    <div class="left-side">
-        <div class="overlay"></div>
-        <div class="left-content">
-            <h2>Technical Skills & Expertise</h2>
-            <p>Skilled in modern cloud technologies, DevOps practices, and automation, with expertise in cloud
-                computing, CI/CD pipelines, and software development. Proficient in tools like AWS, Docker, and Python
-                to drive efficiency and scalability.</p>
+  <!-- Left Side -->
+  <div class="left-side">
+    <div class="overlay"></div>
+    <div class="left-content">
+      <h2>Technical Skills & Expertise</h2>
+      <p>Skilled in modern cloud technologies, DevOps practices, and automation, with expertise in cloud
+        computing, CI/CD pipelines, and software development. Proficient in tools like AWS, Docker, and Python
+        to drive efficiency and scalability.</p>
 
-            <div class="mt-4">
-                <div class="stats-container">
-                    <div class="stats-card blue-card">DevOps </div>
-                    <div class="stats-card yellow-card">SaaS </div>
-                    <div class="stats-card blue-card">Cloud Computing </div>
-                    <div class="stats-card blue-card">Amazon Web Services (AWS) </div>
-                    <div class="stats-card yellow-card">Docker </div>
-                    <div class="stats-card blue-card">Python </div>
-                </div>
-            </div>
+      <div class="mt-4">
+        <div class="stats-container">
+          <div class="stats-card blue-card">DevOps </div>
+          <div class="stats-card yellow-card">SaaS </div>
+          <div class="stats-card blue-card">Cloud Computing </div>
+          <div class="stats-card blue-card">Amazon Web Services (AWS) </div>
+          <div class="stats-card yellow-card">Docker </div>
+          <div class="stats-card blue-card">Python </div>
         </div>
+      </div>
     </div>
+  </div>
 
-    <!-- Yellow Curve -->
-    <div class="yellow-curve"></div>
+  <!-- Yellow Curve -->
+  <div class="yellow-curve"></div>
 
-    <!-- Right Side -->
-    <div class="right-side">
-        <h2>Portfolio</h2>
-        <p>Showcasing innovative projects, creative solutions, and a passion for excellence.</p>
+  <!-- Right Side -->
+  <div class="right-side">
+    <h2>Portfolio</h2>
+    <p>Showcasing innovative projects, creative solutions, and a passion for excellence.</p>
 
-        <div class="stats">
-            <div class="containerright">
-                <div class="info-box">
-                    <i class="fa-solid fa-users-gear"></i> <!-- Managing Engineers -->
-                    <div>
-                        <strong>55+</strong>
-                        <p>Managing more than Engineers</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="info-box">
-                    <i class="fa-solid fa-briefcase"></i> <!-- Handled Projects -->
-                    <div>
-                        <strong>$30M</strong>
-                        <p>Over Handled Projects</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="containerright">
-                <div class="info-box">
-                    <i class="fa-solid fa-globe"></i> <!-- Global Teams Reporting -->
-                    <div>
-                        <strong>5+</strong>
-                        <p>Global Teams Reporting</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="info-box">
-                    <i class="fa-solid fa-piggy-bank"></i> <!-- Cost Savings -->
-                    <div>
-                        <strong>$20M</strong>
-                        <p>Implemented Cost Savings</p>
-                    </div>
-                </div>
-            </div>
-
+    <div class="stats">
+      <div class="containerright">
+        <div class="info-box">
+          <i class="fa-solid fa-users-gear"></i> <!-- Managing Engineers -->
+          <div>
+            <!-- <strong>55+</strong> -->
+            <p>Managing more than Engineers</p>
+          </div>
         </div>
+        <div class="divider"></div>
+        <div class="info-box">
+          <i class="fa-solid fa-briefcase"></i> <!-- Handled Projects -->
+          <div>
+            <!-- <strong>$30M</strong> -->
+            <p>Over Handled Projects</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="containerright">
+        <div class="info-box">
+          <i class="fa-solid fa-globe"></i> <!-- Global Teams Reporting -->
+          <div>
+            <!-- <strong>5+</strong> -->
+            <p>Global Teams Reporting</p>
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="info-box">
+          <i class="fa-solid fa-piggy-bank"></i> <!-- Cost Savings -->
+          <div>
+            <!-- <strong>$20M</strong> -->
+            <p>Implemented Cost Savings</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 </div>
 <!-- </section> -->
 

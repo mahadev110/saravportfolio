@@ -16,15 +16,15 @@
 
                     <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                         <ul class="nav navbar-nav menu_nav ml-auto">
-                            <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#aboutsection">About</a></li>
+                            <!-- <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#aboutsection">About</a></li> -->
                             <li class="nav-item"><a class="nav-link" id="experience-link"
                                     href="#qualificationid">Experiences</a></li>
                             <li class="nav-item"><a class="nav-link" id="academic-link"
                                     href="#qualificationid">Academic</a></li>
 
                             <li class="nav-item"><a class="nav-link" href="#portfolioid">Portfolio</a>
-                            <li class="nav-item"><a class="nav-link" href="#contactid">Contact</a></li>
+                            <!-- <li class="nav-item"><a class="nav-link" href="#contactid">Contact</a></li> -->
                             <li class="nav-item"><a class="menu_btn" href="login">Login</a></li>
                         </ul>
                     </div>

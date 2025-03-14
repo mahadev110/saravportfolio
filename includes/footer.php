@@ -4,7 +4,7 @@
             <div class="col-lg-5 col-sm-6">
                 <aside class="f_widget ab_widget">
                     <div class="f_title">
-                        <h3>About Me</h3>
+                        <h3>Sarav Jagadeesan</h3>
                     </div>
                     <p>Experienced leader managing global teams and high-value projects. Passionate about innovation,
                         efficiency, and driving impactful results.</p>
@@ -20,17 +20,17 @@
                     <div class="f_title">
                         <h3>Contact</h3>
                     </div>
-                    <p><strong>Office: </strong>2100 Seaport Blvd, Redwood City, CA 94063</p>
-                    <p><strong>Call me: </strong>(650) ***-*****</p>
-                    <p><strong>Mail me: </strong>info@example.com</p>
+                    <!-- <p><strong>Office: </strong>2100 Seaport Blvd, Redwood City, CA 94063</p> -->
+                    <!-- <p><strong>Call me: </strong>(650) ***-*****</p> -->
+                    <p> <i class="fa fa-envelope fa-xl mr-2"> </i> info@example.com</p>
                 </aside>
             </div>
             <div class="col-lg-2">
                 <aside class="f_widget social_widget">
                     <div class="f_title">
-                        <h3>Follow Me</h3>
+                        <h3>Social Media</h3>
                     </div>
-                    <p>Let us be social</p>
+                    <!-- <p>Let us be social</p> -->
                     <ul class="list d-flex align-items-center">
                         <li class="mr-3">
                             <a href="https://www.linkedin.com/in/saravananjagadeesan/" target="_blank">

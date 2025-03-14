@@ -7,6 +7,7 @@
 
 .welcome_text p {
     margin-bottom: 10px! important;
+    max-width: 700px! important;
 }
 
 .f_title {
