@@ -645,3 +645,10 @@
         display: none; /* Hide only on tablets */
     }
 }
+
+
+
+.accord-width {
+    width: 1200px;
+    margin: 0 auto; /* Centers the accordion horizontally */
+}

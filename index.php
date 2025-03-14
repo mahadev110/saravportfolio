@@ -56,7 +56,7 @@ include "includes/sliderhero.php";
         </div>
 
       </div>
-     
+
       <div class="col-lg-3">
         <div class="image-frame mt-5">
           <img class="img-fluid" src="img/banner/profile2.png" alt="about" />
