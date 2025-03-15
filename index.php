@@ -37,26 +37,26 @@ include "includes/sliderhero.php";
             <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>16 +</h4>
-                <p>Years <br>experience</p>
+                <p><strong>Years experience</strong></p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>12 +</h4>
-                <p>Completed projects</p>
+                <p><strong>Completed projects</strong></p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="wel_item text-center">
-                <h4>05</h4>
-                <p>Companies trained</p>
+                <h4>05 +</h4>
+                <p><strong>Global teams</strong></p>
               </div>
             </div>
           </div>
         </div>
 
       </div>
-     
+
       <div class="col-lg-3">
         <div class="image-frame mt-5">
           <img class="img-fluid" src="img/banner/profile2.png" alt="about" />
@@ -377,7 +377,7 @@ include "includes/sliderhero.php";
           <i class="fa-solid fa-users-gear"></i> <!-- Managing Engineers -->
           <div>
             <!-- <strong>55+</strong> -->
-            <p>Managing more than Engineers</p>
+            <p>Managed core teams</p>
           </div>
         </div>
         <div class="divider"></div>
@@ -385,7 +385,7 @@ include "includes/sliderhero.php";
           <i class="fa-solid fa-briefcase"></i> <!-- Handled Projects -->
           <div>
             <!-- <strong>$30M</strong> -->
-            <p>Over Handled Projects</p>
+            <p>Handled enterprise clients</p>
           </div>
         </div>
       </div>
@@ -395,7 +395,7 @@ include "includes/sliderhero.php";
           <i class="fa-solid fa-globe"></i> <!-- Global Teams Reporting -->
           <div>
             <!-- <strong>5+</strong> -->
-            <p>Global Teams Reporting</p>
+            <p>Handled teams across Globe</p>
           </div>
         </div>
         <div class="divider"></div>
@@ -403,7 +403,7 @@ include "includes/sliderhero.php";
           <i class="fa-solid fa-piggy-bank"></i> <!-- Cost Savings -->
           <div>
             <!-- <strong>$20M</strong> -->
-            <p>Implemented Cost Savings</p>
+            <p>Implemented many cost saving measures</p>
           </div>
         </div>
       </div>

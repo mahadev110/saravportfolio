@@ -104,6 +104,7 @@
 
 .wel_item p {  
     color: #000000! important;
+    font-size: 12px;
 }
 .wel_item:hover {  
     background: #62bdfc;
@@ -503,7 +504,7 @@
     align-items: center;
     text-align: center;
     padding: 10px 20px;
-    width: 230px;
+    width: 240px;
 }
 
 .info-box i {
@@ -643,4 +644,11 @@
     .yellow-curve {
         display: none; /* Hide only on tablets */
     }
+}
+
+
+
+.accord-width {
+    width: 1200px;
+    margin: 0 auto; /* Centers the accordion horizontally */
 }
