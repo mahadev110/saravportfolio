@@ -136,30 +136,4 @@ function deletePasscode($conn, $passcodeId) {
     
     return $result;
 }
-
-// Additional function to log email sending
-function logPasscodeEmail($conn, $passcodeId, $email, $status = 'success') {
-    $stmt = $conn->prepare("INSERT INTO email_logs (passcode_id, email, sent_time, status) VALUES (?, ?, NOW(), ?)");
-    $stmt->bind_param("iss", $passcodeId, $email, $status);
-    $result = $stmt->execute();
-    $stmt->close();
-    return $result;
-}
-
-// Function to get email logs for a specific passcode
-function getPasscodeEmailLogs($conn, $passcodeId) {
-    $logs = [];
-    $stmt = $conn->prepare("SELECT * FROM email_logs WHERE passcode_id = ? ORDER BY sent_time DESC");
-    $stmt->bind_param("i", $passcodeId);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    
-    while ($row = $result->fetch_assoc()) {
-        $logs[] = $row;
-    }
-    
-    $stmt->close();
-    return $logs;
-}
-
 ?>
