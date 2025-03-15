@@ -43,7 +43,6 @@ if (isset($_GET['delete']) && is_numeric($_GET['delete'])) {
 }
 
 // Send Email
-// Send Email - Updated function with proper logging
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email'])) {
     $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
     $passcodeId = (int)$_POST['passcode_id'];
@@ -53,44 +52,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email'])) {
         $passcodeDetails = getPasscodeById($conn, $passcodeId);
         
         if ($passcodeDetails && $passcodeDetails['is_active']) {
-            // Send the email
-            $subject = "Your Access Passcode";
+            $result = sendPasscodeEmail($email, $passcodeDetails['passcode'], $accessUrl);
             
-            $message = "
-            <html>
-            <head>
-                <title>Your Access Passcode</title>
-            </head>
-            <body>
-                <div style='max-width: 600px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;'>
-                    <h2>Your Access Passcode</h2>
-                    <p>You have been granted access to our protected content.</p>
-                    <p>Please use the following passcode to gain access:</p>
-                    <div style='background-color: #f0f0f0; padding: 15px; text-align: center; font-size: 24px; font-weight: bold; letter-spacing: 5px; margin: 20px 0;'>
-                        {$passcodeDetails['passcode']}
-                    </div>
-                    <p>Access the protected content at:</p>
-                    <p><a href='{$accessUrl}' style='color: #3498db;'>{$accessUrl}</a></p>
-                    <p>This passcode is confidential. Please do not share it with others.</p>
-                    <hr>
-                    <p style='font-size: 12px; color: #777;'>This is an automated message. Please do not reply to this email.</p>
-                </div>
-            </body>
-            </html>
-            ";
-            
-            // Set content-type header for sending HTML email
-            $headers = "MIME-Version: 1.0" . "\r\n";
-            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-            $headers .= "From: noreply@" . $_SERVER['HTTP_HOST'] . "\r\n";
-            
-            $mailResult = mail($email, $subject, $message, $headers);
-            
-            // Log the email sending attempt
-            $status = $mailResult ? 'success' : 'failed';
-            logPasscodeEmail($conn, $passcodeId, $email, $status);
-            
-            if ($mailResult) {
+            if ($result) {
                 $message = 'Email sent successfully to ' . $email;
             } else {
                 $message = 'Failed to send email. Please check your server configuration.';
@@ -112,8 +76,8 @@ $passcodes = getAllPasscodes($conn);
 function getAccessUrl() {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $domainName = $_SERVER['HTTP_HOST'];
-    $path = rtrim(dirname($_SERVER['PHP_SELF']), '/');
-    return $protocol . $domainName . $path . '/poject.php';
+    $path = rtrim(dirname($_SERVER['PHP_SELF']), '/admin');
+    return $protocol . $domainName . $path . '/index.php';
 }
 
 /**
@@ -131,21 +95,8 @@ function getPasscodeById($conn, $passcodeId) {
 
 /**
  * Send passcode email
- *//**
- * Send passcode email
  */
 function sendPasscodeEmail($email, $passcode, $accessUrl) {
-    global $conn;
-    
-    // Get passcode ID from passcode value
-    $stmt = $conn->prepare("SELECT id FROM passcodes WHERE passcode = ?");
-    $stmt->bind_param("s", $passcode);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    $row = $result->fetch_assoc();
-    $passcodeId = $row['id'];
-    $stmt->close();
-    
     $subject = "Your Access Passcode";
     
     $message = "
@@ -176,15 +127,7 @@ function sendPasscodeEmail($email, $passcode, $accessUrl) {
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
     $headers .= "From: noreply@" . $_SERVER['HTTP_HOST'] . "\r\n";
     
-    $mailResult = mail($email, $subject, $message, $headers);
-    
-    // Log the email sending attempt
-    if ($passcodeId) {
-        $status = $mailResult ? 'success' : 'failed';
-        logPasscodeEmail($conn, $passcodeId, $email, $status);
-    }
-    
-    return $mailResult;
+    return mail($email, $subject, $message, $headers);
 }
 ?>
 

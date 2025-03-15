@@ -251,7 +251,7 @@ function sendPasscodeEmail($email, $passcode, $accessUrl) {
                                         </td>
                                     </tr>
                                 <?php endforeach; ?>
-                            <?php endif; ?>
+                            <?php endif; ?><?php endif; ?>
                         </tbody>
                     </table>
                 </div>
