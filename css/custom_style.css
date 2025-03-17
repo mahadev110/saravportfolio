@@ -42,7 +42,7 @@
 .l_blog_img img {
      width: 100%; /* Ensures images take the full width of the container */
      height: 250px; /* Set a fixed height */
-     object-fit: cover; /* Ensures images maintain aspect ratio without distortion */
+     object-fit: fill; /* Ensures images maintain aspect ratio without distortion */
 }
       
 .projects_item img {
@@ -406,6 +406,15 @@
     color: #62bdfc !important;
 }
 
+@media (max-width: 992px) {
+    .header_area .navbar .navbar-brand,
+.header_area .navbar .nav .nav-item .nav-link {
+    color: #777777 !important;
+    /* transition: color 0.3s ease-in-out; */
+}
+
+}
+
 /* ..............portfolio css  */
 
 .hero-section {
@@ -653,7 +662,22 @@
 
 
 .accord-width {
-    width: 1200px;
-    margin: 0 auto; /* Centers the accordion horizontally */
+    width: 100%;
+    overflow-x: hidden;
 }
 
+.accordion .card {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+
+
+.accordion-image {
+    width: 70%;  
+    border-radius: 10px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

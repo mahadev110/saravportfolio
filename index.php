@@ -448,7 +448,7 @@ include "includes/sliderhero.php";
       <div class="col-lg-6">
         <div class="l_blog_item">
           <div class="l_blog_img">
-            <img class="img-fluid" src="img/projects/certificate2.png" alt="High Value Projects" />
+            <img class="img-fluid" src="img/projects/certificate3.png" alt="High Value Projects" />
           </div>
           <div class="l_blog_text">
             <div class="date">
