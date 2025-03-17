@@ -1,10 +1,10 @@
 <?php
 
 // local connection
-// $servername = "localhost"; // Change if necessary
-// $username = "root"; // Your database username
-// $password = ""; // Your database password
-// $dbname = "saravportfolio"; // Change this
+$servername = "localhost"; // Change if necessary
+$username = "root"; // Your database username
+$password = ""; // Your database password
+$dbname = "saravportfolio"; // Change this
 
 
 // server connection
