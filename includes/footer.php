@@ -38,7 +38,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="login.php" class="font-weight-bold">Login</a>
+                            <a href="manage" class="font-weight-bold">Login</a>
                         </li>
                     </ul>
 

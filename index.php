@@ -37,19 +37,19 @@ include "includes/sliderhero.php";
             <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>16 +</h4>
-                <p><strong>Years experience</strong></p>
+                <p>Years experience</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>12 +</h4>
-                <p><strong>Completed projects</strong></p>
+                <p>Completed projects</p>
               </div>
             </div>
             <div class="col-md-3">
               <div class="wel_item text-center">
                 <h4>05 +</h4>
-                <p><strong>Global teams</strong></p>
+                <p>Global teams</p>
               </div>
             </div>
           </div>
@@ -340,7 +340,7 @@ include "includes/sliderhero.php";
 
 <!-- <section class="latest_blog_area p_120" id="portfolioid"> -->
 
-<div class="hero-section mb-5" id="portfolioid">
+<div class="hero-section" id="portfolioid">
   <!-- Left Side -->
   <div class="left-side">
     <div class="overlay"></div>
@@ -412,5 +412,62 @@ include "includes/sliderhero.php";
   </div>
 </div>
 <!-- </section> -->
+
+
+
+
+<!--================Licenses & certifications =================-->
+<section class="latest_blog_area p_120" id="portfolioid">
+  <div class="container">
+    <div class="main_title">
+      <h2>Licenses & Certifications</h2>
+      <p>
+        Showcasing innovative projects, creative solutions, and a passion for excellence.
+      </p>
+    </div>
+    <div class="row latest_blog_inner">
+      <div class="col-lg-6">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/projects/certificate1.png" alt="Managing Engineers" />
+          </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">Coursera</a>
+            </div>
+            <a href="#">
+              <h4>Machine learning specialization</h4>
+            </a>
+            <p>
+            Issued Oct 2016
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="l_blog_item">
+          <div class="l_blog_img">
+            <img class="img-fluid" src="img/projects/certificate2.png" alt="High Value Projects" />
+          </div>
+          <div class="l_blog_text">
+            <div class="date">
+              <a href="#">Coursera</a>
+            </div>
+            <a href="#">
+              <h4>Interactive programming in Python</h4>
+            </a>
+            <p>
+            Issued Sep 2014
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!--================End Licenses & certifications =================-->
 
 <?php include "includes/footer.php"; ?>

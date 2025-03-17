@@ -59,7 +59,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_email'])) {
             $message = "
             <html>
             <head>
-                <title>Your Access Passcode</title>
+                    <link rel='icon' href='../img/favicon.png' type='image/png' />
+    <title>Sarav Jagadeesan - Personal Portfolio</title>
             </head>
             <body>
                 <div style='max-width: 600px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;'>
@@ -153,7 +154,8 @@ function sendPasscodeEmail($email, $passcode, $accessUrl) {
     $message = "
     <html>
     <head>
-        <title>Your Access Passcode</title>
+         <link rel='icon' href='../img/favicon.png' type='image/png' />
+    <title>Sarav Jagadeesan - Personal Portfolio</title>
     </head>
     <body>
         <div style='max-width: 600px; margin: 0 auto; padding: 20px; font-family: Arial, sans-serif;'>
@@ -195,7 +197,8 @@ function sendPasscodeEmail($email, $passcode, $accessUrl) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <link rel="icon" href="../img/favicon.png" type="image/png" />
+    <title>Sarav Jagadeesan - Personal Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <style>

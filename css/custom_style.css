@@ -103,7 +103,7 @@
 }
 
 .wel_item p {  
-    color: #000000! important;
+    /* color: #000000! important; */
     font-size: 12px;
 }
 .wel_item:hover {  
@@ -111,6 +111,10 @@
     opacity: 0.5;
     /* linear-gradient(to right, #8490ff 0%, #62bdfc 70%); */
 
+}
+
+.wel_item h4{
+    color: #777777! important;
 }
 
 /* ............tree  */
@@ -652,3 +656,4 @@
     width: 1200px;
     margin: 0 auto; /* Centers the accordion horizontally */
 }
+

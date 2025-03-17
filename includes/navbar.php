@@ -25,7 +25,10 @@
 
                             <li class="nav-item"><a class="nav-link" href="#portfolioid">Portfolio</a>
                             <!-- <li class="nav-item"><a class="nav-link" href="#contactid">Contact</a></li> -->
-                            <li class="nav-item"><a class="menu_btn" href="manage">Login</a></li>
+                            <!-- <li class="nav-item"><a class="menu_btn" href="manage">Login</a></li> -->
+                            <li class="nav-item"> <a class="nav-link" href="https://www.linkedin.com/in/saravananjagadeesan/" target="_blank">
+                                <i class="fab fa-linkedin fa-xl"></i>
+                            </a></li>
                         </ul>
                     </div>
                 </div>
