@@ -433,7 +433,7 @@ include "includes/sliderhero.php";
           </div>
           <div class="l_blog_text">
             <div class="date">
-              <a href="#">Coursera</a>
+              <!-- <a href="#">Coursera</a> -->
             </div>
             <a href="#">
               <h4>Machine learning specialization</h4>
@@ -452,7 +452,7 @@ include "includes/sliderhero.php";
           </div>
           <div class="l_blog_text">
             <div class="date">
-              <a href="#">Coursera</a>
+              <!-- <a href="#">Coursera</a> -->
             </div>
             <a href="#">
               <h4>Interactive programming in Python</h4>
